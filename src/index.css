@@ -8,8 +8,21 @@ body {
 	-webkit-overflow-scrolling: touch;
 }
 
+.gradient {
+	background: linear-gradient(
+		360deg,
+		rgba(0, 0, 0, 0.58) 0%,
+		rgba(255, 255, 255, 0) 69.87%
+	);
+}
+
+.btn-shadow {
+	box-shadow: 0px 10px 21px -11px #f25f3a;
+}
+
 .animate-menu {
-	animation: animateMenu 0.5s ease 0s 1 normal both;
+	animation: animateMenu 0.3s ease 0s 1 normal both;
+	box-shadow: 0px 0px 19px -5px rgba(0, 0, 0, 0.25);
 }
 
 @keyframes animateMenu {
