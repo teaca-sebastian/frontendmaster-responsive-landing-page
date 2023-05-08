@@ -1,14 +1,13 @@
-import styles, { layout } from "./style"
+import { layout } from "./style"
 import { Navbar, Hero, Features, Testimonials, CTA, Footer } from './components/index'
 
 const App = () => (
-  <main>
-    <div className={`${layout.section}`}>
-      {/* w-100 */}
+  <main className="mx-auto sm:space-y-7">
+    <div className={`${layout.section} ${layout.paddingX}`}>
       <Navbar />
     </div>
 
-    <div>
+    <div className={`${layout.sectionReverse} ${layout.paddingX}`}>
       <Hero />
     </div>
 
