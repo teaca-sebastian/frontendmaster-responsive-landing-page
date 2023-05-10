@@ -16,7 +16,7 @@ const Navbar = () => {
 		<>
 			<div className='relative z-10 flex w-full items-center justify-between py-10'>
 				<div>
-					<img src={logo} className='w-[110px] object-contain' alt='logo' />
+					<img src={logo} className='w-[140px] object-contain' alt='logo' />
 				</div>
 
 				{/* mobile nav */}

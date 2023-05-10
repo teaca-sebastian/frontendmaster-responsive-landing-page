@@ -16,8 +16,6 @@ export const layout = {
 
 	section: 'flex flex-col sm:flex-row mx-auto max-w-screen-xl justify-between gap-5',
 
-	// for testimonials and footers
-	'section-full': 'flex flex-col sm:flex-row mx-auto max-w-full',
 	sectionReverse:
 		'flex flex-col-reverse mx-auto max-w-screen-xl sm:flex-row justify-between gap-5',
 }

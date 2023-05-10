@@ -11,6 +11,7 @@ import logo from './logo.svg'
 import pinterest from './pinterest.svg'
 import twitter from './twitter.svg'
 import youtube from './youtube.svg'
+import logoFooter from './logo-footer.svg'
 
 export {
 	avatar01,
@@ -26,4 +27,5 @@ export {
 	pinterest,
 	youtube,
 	twitter,
+	logoFooter
 }

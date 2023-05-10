@@ -3,7 +3,7 @@ import { features } from '../constants'
 
 const Features = () => (
 	<>
-		<div className='flex flex-1 flex-col items-center gap-4 sm:items-start sm:gap-7'>
+		<div className='flex flex-1 flex-col items-center gap-4 sm:items-start sm:gap-7 mb-5 sm:mb-0'>
 			<h2
 				className={`${styles.heading2} max-w-sm text-center text-dark sm:max-w-md sm:text-left xl:max-w-lg`}
 			>
@@ -17,10 +17,10 @@ const Features = () => (
 				teams.
 			</p>
 		</div>
-		<div className='flex-1 space-y-5'>
+		<div className='flex-1 space-y-10'>
 			{features.map((feature, index) => (
 				<div key={feature.id} className='ms-3 space-y-3'>
-					<h3 className={`${styles.heading3} bg-accent-light sm:bg-white rounded-l-full flex items-center gap-2 md:gap-4 relative text-dark whitespace-nowrap`}>
+					<h3 className={`${styles.heading3} bg-accent-light sm:bg-white rounded-l-full flex items-center gap-2 md:gap-4 relative text-dark xs:whitespace-nowrap`}>
 						<span className='rounded-full text-xs bg-accent px-6 py-2 font-primary text-white'>
 							{index}
 						</span>
